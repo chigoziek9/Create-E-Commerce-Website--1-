@@ -1,7 +1,7 @@
 
-  # Create E-Commerce Website
+  # ROOTSNJIUCES WEBSITE
 
-  This is a code bundle for Create E-Commerce Website. The original project is available at https://www.figma.com/design/VGWysolUAdUDhX4bpf80CV/Create-E-Commerce-Website.
+  This is a code bundle for ROOTSNJUICES  Website. The original project is available at https://www.figma.com/design/VGWysolUAdUDhX4bpf80CV/Create-E-Commerce-Website.
 
   ## Running the code
 
