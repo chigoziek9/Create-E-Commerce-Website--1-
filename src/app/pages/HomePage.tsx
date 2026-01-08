@@ -62,10 +62,10 @@ export function HomePage({ onNavigate, viewProductDetail }: HomePageProps) {
   return (
     <div className="min-h-screen">
       {/* Hero Carousel */}
-      <section className="relative h-[600px] md:h-[700px] overflow-hidden">
+      <section className="relative h-[900px] md:h-[900px] overflow-hidden">
         <Slider {...sliderSettings}>
           {heroSlides.map((slide, index) => (
-            <div key={index} className="relative h-[600px] md:h-[700px]">
+            <div key={index} className="relative h-[900px] md:h-[700px]">
               <div
                 className="absolute inset-0 transition-all duration-1000"
                 style={{
@@ -86,7 +86,7 @@ export function HomePage({ onNavigate, viewProductDetail }: HomePageProps) {
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.4 }}
-                      className="inline-block px-4 py-2 rounded-full text-sm font-semibold mb-4"
+                      className="inline-block px-2 py-2 rounded-full text-sm font-semibold "
                       style={{ backgroundColor: `${slide.color}20`, color: slide.color }}
                     >
                       {slide.flavor} Flavor
@@ -137,7 +137,7 @@ export function HomePage({ onNavigate, viewProductDetail }: HomePageProps) {
                       <motion.img
                         src={slide.image}
                         alt={slide.flavor}
-                        className="w-full h-full object-cover rounded-3xl shadow-2xl"
+                        className="w-full h-full  rounded-3xl shadow-2xl"
                         whileHover={{ scale: 1.05, rotate: 2 }}
                         transition={{ duration: 0.3 }}
                       />
