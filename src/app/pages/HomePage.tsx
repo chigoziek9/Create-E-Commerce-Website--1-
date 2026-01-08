@@ -62,7 +62,7 @@ export function HomePage({ onNavigate, viewProductDetail }: HomePageProps) {
   return (
     <div className="min-h-screen">
       {/* Hero Carousel */}
-      <section className="relative h-[900px] md:h-[900px] overflow-hidden">
+      <section className="relative h-[900px] md:h-[700px] overflow-hidden">
         <Slider {...sliderSettings}>
           {heroSlides.map((slide, index) => (
             <div key={index} className="relative h-[900px] md:h-[700px]">
